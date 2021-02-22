@@ -1,0 +1,35 @@
+body, html {
+    margin:0;
+    height: 100%;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: black;
+    flex: 0 1 40px;
+    padding: 0px 30px;
+}
+
+header label {
+    display: inline-block;
+    color:white;
+    margin-left:20px;
+    margin-right:4px;
+}
+
+#file-import-gpx {
+    display: none;
+    visibility: hidden;
+}
+
+#mapid {
+    width: 100%;
+    flex: 1 1 100%;
+}
